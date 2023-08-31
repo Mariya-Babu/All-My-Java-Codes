@@ -8,7 +8,7 @@ class KrushkalAlgo{
         int[][] g1 = new int[vert][vert];
         int[][] g2 = new int[vert][vert];
         int n = ((vert-1)*(vert-2))/2;
-        weights w[n] = new  weights();
+        // weights w[n] = new  weights();
         System.out.println("Enter the graph details with edge weights in adjacency matrix : ");
         for(int i=0;i<vert;i++){
             for(int j=0;j<vert;j++){

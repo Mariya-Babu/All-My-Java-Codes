@@ -43,6 +43,7 @@ class LargestNumber{
                 }
             }
         }
+		return 0;
     }
 }
  

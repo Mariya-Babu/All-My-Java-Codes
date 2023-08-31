@@ -2,8 +2,9 @@ import java.util.*;
 class Array{
 
 
+	int size = 5;
 	int arr[] = new int[size];//
-	Strint str[] = new String[size];
+	String str[] = new String[size];
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		int n;
@@ -36,7 +37,8 @@ class Array{
 		}	
 		
 	}
-	 static int read(int n){
+	 public static int read(int n){
+		Scanner sc = new Scanner(System.in);
 		int num,i=1,j;
 		while(i==1){
 			System.out.println("Enter how many element's do you want to inset :");
@@ -50,8 +52,8 @@ class Array{
 		for(j=0;j<num;j++){
 			System.out.println("Enter the element"+j+" : ");
 					
-
 		}
+		return 1;
 		
 	}
 	static int insert(){
